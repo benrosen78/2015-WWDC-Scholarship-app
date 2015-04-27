@@ -7,10 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B58C89A21AED3E0A00BA0EC1 /* UIImage+DominantColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B58C89A11AED3E0A00BA0EC1 /* UIImage+DominantColor.m */; };
 		B5C2870A1AEC857F0093170C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C287091AEC857F0093170C /* AppDelegate.swift */; };
 		B5C2870C1AEC857F0093170C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C2870B1AEC857F0093170C /* Images.xcassets */; };
 		B5C2870F1AEC857F0093170C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5C2870D1AEC857F0093170C /* LaunchScreen.xib */; };
 		B5C2871B1AEC857F0093170C /* Ben_RosenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C2871A1AEC857F0093170C /* Ben_RosenTests.swift */; };
+		B5C287251AEC85DF0093170C /* BRIntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C287241AEC85DF0093170C /* BRIntroductionViewController.swift */; };
+		B5C287281AED54200093170C /* BRProfileDetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C287271AED54200093170C /* BRProfileDetailedViewController.swift */; };
+		B5C2872B1AED57850093170C /* BRProfileLargeHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C2872A1AED57850093170C /* BRProfileLargeHeaderTableViewCell.swift */; };
+		B5C2872D1AED579E0093170C /* BRProfileSlideshowCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C2872C1AED579E0093170C /* BRProfileSlideshowCollectionViewCell.swift */; };
+		B5C2872F1AED714F0093170C /* BRProfileSlideshowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C2872E1AED714F0093170C /* BRProfileSlideshowTableViewCell.swift */; };
+		B5C287311AED82200093170C /* BRProjectDetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C287301AED82200093170C /* BRProjectDetailedViewController.swift */; };
+		B5C287331AED85030093170C /* BRProfileCloseButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C287321AED85030093170C /* BRProfileCloseButtonTableViewCell.swift */; };
+		B5F6B4E81AEC8C4E0023B715 /* BIG JOHN.otf in Resources */ = {isa = PBXBuildFile; fileRef = B5F6B4E51AEC8C280023B715 /* BIG JOHN.otf */; };
+		B5F6B4E91AEC8C500023B715 /* Slim Joe.otf in Resources */ = {isa = PBXBuildFile; fileRef = B5F6B4E61AEC8C280023B715 /* Slim Joe.otf */; };
+		B5F6B4EA1AEC8C510023B715 /* Arca-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5F6B4E71AEC8C280023B715 /* Arca-Heavy.ttf */; };
+		B5F6B4EF1AEC963E0023B715 /* BRUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F6B4EE1AEC963E0023B715 /* BRUser.swift */; };
+		B5F6B4F11AED12B80023B715 /* BRProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F6B4F01AED12B80023B715 /* BRProject.swift */; };
+		B5F6B4F31AED15C00023B715 /* BRExperience.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F6B4F21AED15C00023B715 /* BRExperience.swift */; };
+		B5F6B4F61AED18C00023B715 /* BRHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F6B4F51AED18C00023B715 /* BRHomeTableViewController.swift */; };
+		B5F6B4F91AED18E00023B715 /* BRHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F6B4F81AED18E00023B715 /* BRHomeTableViewCell.swift */; };
+		B5F6B4FB1AED19040023B715 /* BRProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F6B4FA1AED19040023B715 /* BRProfileTableViewCell.swift */; };
+		B5F6B4FD1AED19150023B715 /* BRProjectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F6B4FC1AED19150023B715 /* BRProjectTableViewCell.swift */; };
+		B5F6B4FF1AED191E0023B715 /* BRExperienceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F6B4FE1AED191E0023B715 /* BRExperienceTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B58C899F1AED3E0900BA0EC1 /* Ben Rosen-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ben Rosen-Bridging-Header.h"; sourceTree = "<group>"; };
+		B58C89A01AED3E0A00BA0EC1 /* UIImage+DominantColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DominantColor.h"; sourceTree = "<group>"; };
+		B58C89A11AED3E0A00BA0EC1 /* UIImage+DominantColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DominantColor.m"; sourceTree = "<group>"; };
 		B5C287041AEC857F0093170C /* Ben Rosen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ben Rosen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C287081AEC857F0093170C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5C287091AEC857F0093170C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +54,24 @@
 		B5C287141AEC857F0093170C /* Ben RosenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ben RosenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C287191AEC857F0093170C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5C2871A1AEC857F0093170C /* Ben_RosenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ben_RosenTests.swift; sourceTree = "<group>"; };
+		B5C287241AEC85DF0093170C /* BRIntroductionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRIntroductionViewController.swift; sourceTree = "<group>"; };
+		B5C287271AED54200093170C /* BRProfileDetailedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRProfileDetailedViewController.swift; sourceTree = "<group>"; };
+		B5C2872A1AED57850093170C /* BRProfileLargeHeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRProfileLargeHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		B5C2872C1AED579E0093170C /* BRProfileSlideshowCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRProfileSlideshowCollectionViewCell.swift; sourceTree = "<group>"; };
+		B5C2872E1AED714F0093170C /* BRProfileSlideshowTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRProfileSlideshowTableViewCell.swift; sourceTree = "<group>"; };
+		B5C287301AED82200093170C /* BRProjectDetailedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRProjectDetailedViewController.swift; sourceTree = "<group>"; };
+		B5C287321AED85030093170C /* BRProfileCloseButtonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRProfileCloseButtonTableViewCell.swift; sourceTree = "<group>"; };
+		B5F6B4E51AEC8C280023B715 /* BIG JOHN.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BIG JOHN.otf"; sourceTree = "<group>"; };
+		B5F6B4E61AEC8C280023B715 /* Slim Joe.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Slim Joe.otf"; sourceTree = "<group>"; };
+		B5F6B4E71AEC8C280023B715 /* Arca-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arca-Heavy.ttf"; sourceTree = "<group>"; };
+		B5F6B4EE1AEC963E0023B715 /* BRUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRUser.swift; sourceTree = "<group>"; };
+		B5F6B4F01AED12B80023B715 /* BRProject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRProject.swift; sourceTree = "<group>"; };
+		B5F6B4F21AED15C00023B715 /* BRExperience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRExperience.swift; sourceTree = "<group>"; };
+		B5F6B4F51AED18C00023B715 /* BRHomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRHomeTableViewController.swift; sourceTree = "<group>"; };
+		B5F6B4F81AED18E00023B715 /* BRHomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRHomeTableViewCell.swift; sourceTree = "<group>"; };
+		B5F6B4FA1AED19040023B715 /* BRProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRProfileTableViewCell.swift; sourceTree = "<group>"; };
+		B5F6B4FC1AED19150023B715 /* BRProjectTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRProjectTableViewCell.swift; sourceTree = "<group>"; };
+		B5F6B4FE1AED191E0023B715 /* BRExperienceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRExperienceTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +114,14 @@
 			isa = PBXGroup;
 			children = (
 				B5C287091AEC857F0093170C /* AppDelegate.swift */,
+				B5C287241AEC85DF0093170C /* BRIntroductionViewController.swift */,
+				B5F6B4F41AED18A40023B715 /* About Me Home View Controller */,
+				B5C287261AED53060093170C /* Detailed View Controllers */,
+				B5F6B4ED1AEC962F0023B715 /* Objects */,
 				B5C2870B1AEC857F0093170C /* Images.xcassets */,
+				B58C89A01AED3E0A00BA0EC1 /* UIImage+DominantColor.h */,
+				B58C89A11AED3E0A00BA0EC1 /* UIImage+DominantColor.m */,
+				B58C899F1AED3E0900BA0EC1 /* Ben Rosen-Bridging-Header.h */,
 				B5C2870D1AEC857F0093170C /* LaunchScreen.xib */,
 				B5C287071AEC857F0093170C /* Supporting Files */,
 			);
@@ -85,6 +132,9 @@
 			isa = PBXGroup;
 			children = (
 				B5C287081AEC857F0093170C /* Info.plist */,
+				B5F6B4E51AEC8C280023B715 /* BIG JOHN.otf */,
+				B5F6B4E61AEC8C280023B715 /* Slim Joe.otf */,
+				B5F6B4E71AEC8C280023B715 /* Arca-Heavy.ttf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -104,6 +154,57 @@
 				B5C287191AEC857F0093170C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5C287261AED53060093170C /* Detailed View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B5C287271AED54200093170C /* BRProfileDetailedViewController.swift */,
+				B5C287301AED82200093170C /* BRProjectDetailedViewController.swift */,
+				B5C287291AED575D0093170C /* Cells */,
+			);
+			path = "Detailed View Controllers";
+			sourceTree = "<group>";
+		};
+		B5C287291AED575D0093170C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B5C2872A1AED57850093170C /* BRProfileLargeHeaderTableViewCell.swift */,
+				B5C2872E1AED714F0093170C /* BRProfileSlideshowTableViewCell.swift */,
+				B5C2872C1AED579E0093170C /* BRProfileSlideshowCollectionViewCell.swift */,
+				B5C287321AED85030093170C /* BRProfileCloseButtonTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B5F6B4ED1AEC962F0023B715 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				B5F6B4EE1AEC963E0023B715 /* BRUser.swift */,
+				B5F6B4F01AED12B80023B715 /* BRProject.swift */,
+				B5F6B4F21AED15C00023B715 /* BRExperience.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		B5F6B4F41AED18A40023B715 /* About Me Home View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B5F6B4F51AED18C00023B715 /* BRHomeTableViewController.swift */,
+				B5F6B4F71AED18D00023B715 /* Cells */,
+			);
+			path = "About Me Home View Controller";
+			sourceTree = "<group>";
+		};
+		B5F6B4F71AED18D00023B715 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B5F6B4F81AED18E00023B715 /* BRHomeTableViewCell.swift */,
+				B5F6B4FA1AED19040023B715 /* BRProfileTableViewCell.swift */,
+				B5F6B4FC1AED19150023B715 /* BRProjectTableViewCell.swift */,
+				B5F6B4FE1AED191E0023B715 /* BRExperienceTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,8 +287,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5F6B4E91AEC8C500023B715 /* Slim Joe.otf in Resources */,
 				B5C2870F1AEC857F0093170C /* LaunchScreen.xib in Resources */,
 				B5C2870C1AEC857F0093170C /* Images.xcassets in Resources */,
+				B5F6B4E81AEC8C4E0023B715 /* BIG JOHN.otf in Resources */,
+				B5F6B4EA1AEC8C510023B715 /* Arca-Heavy.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +309,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5C287281AED54200093170C /* BRProfileDetailedViewController.swift in Sources */,
+				B5C2872D1AED579E0093170C /* BRProfileSlideshowCollectionViewCell.swift in Sources */,
+				B58C89A21AED3E0A00BA0EC1 /* UIImage+DominantColor.m in Sources */,
+				B5C287251AEC85DF0093170C /* BRIntroductionViewController.swift in Sources */,
 				B5C2870A1AEC857F0093170C /* AppDelegate.swift in Sources */,
+				B5C2872F1AED714F0093170C /* BRProfileSlideshowTableViewCell.swift in Sources */,
+				B5C287311AED82200093170C /* BRProjectDetailedViewController.swift in Sources */,
+				B5F6B4EF1AEC963E0023B715 /* BRUser.swift in Sources */,
+				B5F6B4FD1AED19150023B715 /* BRProjectTableViewCell.swift in Sources */,
+				B5F6B4F61AED18C00023B715 /* BRHomeTableViewController.swift in Sources */,
+				B5F6B4F31AED15C00023B715 /* BRExperience.swift in Sources */,
+				B5F6B4F11AED12B80023B715 /* BRProject.swift in Sources */,
+				B5C2872B1AED57850093170C /* BRProfileLargeHeaderTableViewCell.swift in Sources */,
+				B5F6B4FF1AED191E0023B715 /* BRExperienceTableViewCell.swift in Sources */,
+				B5F6B4F91AED18E00023B715 /* BRHomeTableViewCell.swift in Sources */,
+				B5F6B4FB1AED19040023B715 /* BRProfileTableViewCell.swift in Sources */,
+				B5C287331AED85030093170C /* BRProfileCloseButtonTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,9 +446,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Ben Rosen/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ben Rosen/Ben Rosen-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -336,9 +459,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Ben Rosen/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ben Rosen/Ben Rosen-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -395,6 +520,7 @@
 				B5C287201AEC857F0093170C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5C287211AEC857F0093170C /* Build configuration list for PBXNativeTarget "Ben RosenTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +529,7 @@
 				B5C287231AEC857F0093170C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
